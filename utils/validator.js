@@ -15,6 +15,16 @@ exports = module.exports = {
         if (longUrl.indexOf('goo.gl') !== -1) {
             return false
         }
+        if (longUrl.indexOf('tinyurl.com') !== -1) {
+            return false
+        }
+        if (longUrl.indexOf('adf.ly') !== -1) {
+            return false
+        }
+        if (longUrl.indexOf('eunsetee.com') !== -1) {
+            return false
+        }
+        
 
         return true
     }
